@@ -16,13 +16,18 @@ body{
     background: rgb(55, 155, 100);
     color: white;
     font-size: 20px;
-    padding: 10px;
+    padding: 25px 0 0px 0;
     border-radius: 10px;
     margin: 10px;
     display: block;
     text-decoration: none;
+    min-width: 500;
+    max-width: 500;
+    min-height: 50;
+    max-height: 500;
   }
   
+
   img{
     border: solid 3px white;
     border-radius: 50px;
@@ -39,6 +44,6 @@ body{
       transform: translateY(-10px);
     }
     60% {
-      transform: translateY(-5px);
+      transform: translateY(-10px);
     }
   }
